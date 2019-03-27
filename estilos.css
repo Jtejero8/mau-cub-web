@@ -10,10 +10,10 @@
 
 
 body {
-    background: #000 url(imagenes/foto-tema-galicia.jpg);
+    background: #000 url(imagenes/fonsi-fernandez-669930-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif;
 	
 }
 
@@ -34,6 +34,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.contenedor header .logo img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 15px;
 }
 
 header .menu a {
