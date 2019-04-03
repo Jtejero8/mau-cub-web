@@ -144,6 +144,11 @@ footer .redes a:hover {
     aside .ad {
         width: 40%;
     }
+
+    aside .ad img{
+        max-width: 140px;
+        max-height: 80px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -186,6 +191,10 @@ footer .redes a:hover {
 @media screen and (max-width: 400px){
     aside {
         display: none;
+    }
+    aside .ad img{
+        max-width: 80px;
+        max-height: 40px;
     }
 }
 
